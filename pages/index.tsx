@@ -7,22 +7,57 @@ const Image = dynamic(import("mui-image"), { ssr: false }); // Async API cannot 
 const Home: NextPage = () => {
   return (
     <>
-      <Grid container spacing={0} alignItems="center" justify="center">
-        <Grid item xs={12} md={3}>
-          <img
-            src="https://raspi0124.dev/raspi0124.png"
-            width="100%"
-            max-height="75vh"
-          />
+      <div className="homeContainer">
+        <Grid container spacing={0} alignItems="center" justify="center">
+          <Grid item xs={12} md={3}>
+            <img src="https://raspi0124.dev/raspi0124.png" width="100%" />
+          </Grid>
+          <Grid className="center" item xs={12} md={9}>
+            <Box y={2}>
+              <Typography
+                sx={{ typography: { md: "h1", xs: "h2" } }}
+                color="common.white"
+              >
+                raspi0124
+              </Typography>
+            </Box>
+          </Grid>
         </Grid>
-        <Grid className="center" item xs={12} md={9}>
-          <Box y={2}>
-            <Typography variant="h1" color="common.white">
-              raspi0124
+        <Grid className="menu" container spacing={3}>
+          <Grid item className="center" xs={12} md={3}>
+            <Typography
+              sx={{ typography: { md: "h3", xs: "h4" } }}
+              color="common.white"
+            >
+              WORKS
             </Typography>
-          </Box>
+          </Grid>
+          <Grid item className="center" xs={12} md={3}>
+            <Typography
+              sx={{ typography: { md: "h3", xs: "h4" } }}
+              color="common.white"
+            >
+              WORKS2
+            </Typography>
+          </Grid>
+          <Grid item className="center" xs={12} md={3}>
+            <Typography
+              sx={{ typography: { md: "h3", xs: "h4" } }}
+              color="common.white"
+            >
+              WORKS3
+            </Typography>
+          </Grid>
+          <Grid item className="center" xs={12} md={3}>
+            <Typography
+              sx={{ typography: { md: "h3", xs: "h4" } }}
+              color="common.white"
+            >
+              WORKS4
+            </Typography>
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     </>
   );
 };

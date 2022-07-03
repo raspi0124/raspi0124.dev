@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="homeContainer">
-        <Grid container spacing={0} alignItems="center" justify="center">
+        <Grid container spacing={0}>
           <Grid item xs={12} md={3}>
             <img
               src="https://raspi0124.dev/raspi0124.png"

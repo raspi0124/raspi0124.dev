@@ -10,12 +10,17 @@ const Home: NextPage = () => {
       <div className="homeContainer">
         <Grid container spacing={0} alignItems="center" justify="center">
           <Grid item xs={12} md={3}>
-            <img src="https://raspi0124.dev/raspi0124.png" width="100%" />
+            <img
+              src="https://raspi0124.dev/raspi0124.png"
+              min-height="50vh"
+              width="100%"
+            />
           </Grid>
           <Grid className="center" item xs={12} md={9}>
             <Box y={2}>
               <Typography
                 sx={{ typography: { md: "h1", xs: "h2" } }}
+                style={{ paddingBottom: "2rem" }}
                 color="common.white"
               >
                 raspi0124

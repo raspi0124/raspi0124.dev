@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             />
           </Grid>
           <Grid className="center" item xs={12} md={9}>
-            <Box y={2}>
+            <Box>
               <Typography
                 sx={{ typography: { md: "h1", xs: "h2" } }}
                 style={{ paddingBottom: "2rem" }}

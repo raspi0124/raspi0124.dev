@@ -33,7 +33,7 @@ const TopDisplay: NextPage = () => {
               sx={{ typography: { md: "h3", xs: "h4" } }}
               color="common.white"
             >
-              PROFILE (準備中)
+              準備中
             </Typography>
           </Grid>
           <Grid item className="center" xs={12} md={3}>
@@ -41,7 +41,7 @@ const TopDisplay: NextPage = () => {
               sx={{ typography: { md: "h3", xs: "h4" } }}
               color="common.white"
             >
-              WORKS (準備中)
+              準備中
             </Typography>
           </Grid>
           <Grid item className="center" xs={12} md={3}>
@@ -49,7 +49,7 @@ const TopDisplay: NextPage = () => {
               sx={{ typography: { md: "h3", xs: "h4" } }}
               color="common.white"
             >
-              CONTACT (準備中)
+              準備中
             </Typography>
           </Grid>
           <Grid item className="center" xs={12} md={3}>

@@ -42,3 +42,11 @@ a {
   min-width: 100vw;
   max-width: 100vw;
 }
+
+.center {
+  text-align: -webkit-center !important;
+  text-align: -moz-center !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

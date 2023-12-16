@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Image from "next/Image";
 import Link from "../../node_modules/next/link";
 const TopDisplay: NextPage = () => {
   return (

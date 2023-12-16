@@ -1,7 +1,4 @@
 import type { NextPage } from "next";
-import { Grid } from "@mui/material";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 import dynamic from "next/dynamic";
 import TopDisplay from "./components/TopDisplay";
 const Image = dynamic(import("mui-image"), { ssr: false }); // Async API cannot be server-side rendered

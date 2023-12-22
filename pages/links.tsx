@@ -2,9 +2,14 @@ import type { NextPage } from "next";
 import { Grid } from "@mui/material";
 import { Container, Paper, Typography, List, ListItem } from "@mui/material";
 import Link from "../node_modules/next/link";
-const TopDisplay: NextPage = () => {
+import Head from "next/head";
+const Links: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Links | raspi0124.dev</title>
+        <meta name="description" content="raspi0124.devの相互リンク" />
+      </Head>
       <div className="linksContainer">
         <Typography
           sx={{ typography: { md: "h3", xs: "h3" } }}
@@ -16,6 +21,17 @@ const TopDisplay: NextPage = () => {
         <Typography style={{ padding: "2rem" }} color="common.white">
           (見た目が最悪なのでそのうち見た目をよくします)
         </Typography>
+        <div style={{ padding: "2rem" }}>
+          <Typography variant="h4" color="common.white">
+            <a
+              href="https://210o.net/"
+              rel="friend met co-worker colleague neighbor"
+              style={{ textDecoration: "underline" }}
+            >
+              210on (ぱうろ)
+            </a>
+          </Typography>
+        </div>
         <div style={{ padding: "2rem" }}>
           <Typography variant="h4" color="common.white">
             <a
@@ -69,4 +85,4 @@ const TopDisplay: NextPage = () => {
   );
 };
 
-export default TopDisplay;
+export default Links;

@@ -25,10 +25,11 @@ const Links: NextPage = () => {
           <Typography variant="h4" color="common.white">
             <a
               href="https://210o.net/"
-              rel="friend met co-worker colleague neighbor"
+              target="_blank"
+              rel="noreferrer noopener friend met co-worker colleague neighbor"
               style={{ textDecoration: "underline" }}
             >
-              210on (ぱうろ)
+              210on (ぱうろさん)
             </a>
           </Typography>
         </div>
@@ -36,7 +37,8 @@ const Links: NextPage = () => {
           <Typography variant="h4" color="common.white">
             <a
               href="https://eka.earth/"
-              rel="friend met co-worker colleague neighbor"
+              target="_blank"
+              rel="noreferrer noopener friend met co-worker colleague neighbor"
               style={{ textDecoration: "underline" }}
             >
               Ekasilicon
@@ -51,7 +53,8 @@ const Links: NextPage = () => {
           >
             <a
               href="https://www.eniehack.net/~eniehack/"
-              rel="friend met co-worker colleague neighbor"
+              target="_blank"
+              rel="noreferrer noopener friend met co-worker colleague neighbor"
             >
               Eniehack
             </a>
@@ -65,7 +68,8 @@ const Links: NextPage = () => {
           >
             <a
               href="https://lai-lai.info/"
-              rel="friend met co-worker colleague neighbor"
+              target="_blank"
+              rel="noreferrer noopener friend met co-worker colleague neighbor"
             >
               らいらい
             </a>

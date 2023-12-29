@@ -17,10 +17,13 @@ function MyApp(props: MyAppProps) {
   return (
     <CacheProvider value={emotionCache}>
       <Head>
+        <html lang="ja" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta property="og:title" content="raspi0124.dev" />
         <meta property="og:description" content="raspi0124の謎サイト" />
         <meta property="og:image" content="/ogp.png" />
+        <meta property="og:url" content="https://raspi0124.dev/" />
+        <meta property="og:type" content="website" />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />

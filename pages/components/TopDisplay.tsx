@@ -55,7 +55,7 @@ const TopDisplay = () => (
             sx={{ typography: { md: "h3", xs: "h4" } }}
             color="common.white"
           >
-            準備中
+            <a href="https://www.resume.id/raspi0124">RESUME (とりあえず)</a>
           </Typography>
         </Grid>
         <Grid item className="center" xs={12} md={3}>

@@ -8,11 +8,11 @@ import createEmotionCache from "../src/createEmotionCache";
 import "../styles/globals.css";
 
 const clientSideEmotionCache = createEmotionCache();
-interface MyAppProps extends AppProps {
+interface MainPage extends AppProps {
   emotionCache?: EmotionCache;
 }
 
-function MyApp(props: MyAppProps) {
+function MainPage(props: MainPage) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
   return (
     <CacheProvider value={emotionCache}>
@@ -33,4 +33,4 @@ function MyApp(props: MyAppProps) {
   );
 }
 
-export default MyApp;
+export default MainPage;

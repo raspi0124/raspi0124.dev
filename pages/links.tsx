@@ -23,6 +23,10 @@ const Links: NextPage = () => {
           (見た目が最悪なのでそのうち見た目をよくします)
         </Typography>
         <ExternalLink href="https://210o.net/" name="210on (ぱうろ)" />
+        <ExternalLink
+          href="https://www.ultrabumbuku.dev/"
+          name="ウルトラぶんぶく"
+        />
         <ExternalLink href="https://eka.earth/" name="Ekasilicon" />
         <ExternalLink
           href="https://www.eniehack.net/~eniehack/"

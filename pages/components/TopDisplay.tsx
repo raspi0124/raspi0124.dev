@@ -47,7 +47,7 @@ const TopDisplay = () => (
             sx={{ typography: { md: "h3", xs: "h4" } }}
             color="common.white"
           >
-            準備中
+            <a href="https://github.com/raspi0124">GitHub (とりあえず)</a>
           </Typography>
         </Grid>
         <Grid item className="center" xs={12} md={3}>
@@ -65,7 +65,7 @@ const TopDisplay = () => (
             sx={{ typography: { md: "h3", xs: "h4" } }}
             color="common.white"
           >
-            <Link href="/links">LINKS</Link>
+            <Link href="/links">MUTUAL LINKS</Link>
           </Typography>
         </Grid>
       </Grid>
